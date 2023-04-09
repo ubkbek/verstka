@@ -94,6 +94,7 @@
     transform: translateX(-1000px);
     opacity: 0;
     transition: all 0.5s ease;
+    z-index: 999;
   }
 
   .header__nav {
