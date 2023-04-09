@@ -64,8 +64,8 @@
 
 /* mobile */
 @media screen and (max-width: 885px) {
-  .header {
-  }
+  /* .header {
+  } */
 
   .header__nav-wrapper {
     position: absolute;
