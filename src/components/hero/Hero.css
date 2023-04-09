@@ -1,6 +1,6 @@
-/* .hero {
-  background-color: #e8e8d0;
-} */
+.hero {
+  margin-bottom: 120px;
+}
 
 .hero__container {
   display: flex;
@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 1060px) {
   .hero {
-    margin-bottom: 64px;
+    margin-bottom: 70px;
   }
 
   .hero__container {
