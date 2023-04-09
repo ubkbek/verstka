@@ -96,6 +96,7 @@
 
   .about__text {
     margin-bottom: 24px;
+    text-align: center;
   }
 
   .about__result ul {
