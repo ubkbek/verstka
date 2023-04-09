@@ -28,7 +28,7 @@ const Header = () => {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "header__nav-link text-decoration-underline p-4"
+                      ? "header__nav-link text-decoration-underline"
                       : "header__nav-link"
                   }
                 >

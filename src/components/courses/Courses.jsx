@@ -49,7 +49,9 @@ const Courses = () => {
             <div className="courses__wrapper">
               <h3 className="courses__title">Fizika</h3>
 
-              <p className="courses__text">Abituriyentlar uchun fizika kursi</p>
+              <p className="courses__text">
+                Abituriyentlar uchun chuqurlashtirilgan fizika kursi
+              </p>
 
               <p className="courses__text">100 % offline</p>
 
@@ -93,121 +95,6 @@ const Courses = () => {
 
               <p className="courses__text">
                 Abituriyentlar uchun umumiy ingliz tili
-              </p>
-
-              <p className="courses__text">100 % offline</p>
-
-              <Link className="courses__more-info" to="#">
-                Batafsil
-              </Link>
-            </div>
-          </li>
-          <li className="courses__item">
-            <img
-              className="courses__image"
-              src={brainImage}
-              alt="Mnemonika"
-              width={288}
-              height={186}
-            />
-
-            <div className="courses__wrapper">
-              <h3 className="courses__title">Mnemonika</h3>
-
-              <p className="courses__text">
-                Mnemonika kurslarimiz orqali miyangizni to'gri boshqaring
-              </p>
-
-              <p className="courses__text">100 % offline</p>
-
-              <Link className="courses__more-info" to="#">
-                Batafsil
-              </Link>
-            </div>
-          </li>
-          <li className="courses__item">
-            <img
-              className="courses__image"
-              src={brainImage}
-              alt="Mnemonika"
-              width={288}
-              height={186}
-            />
-
-            <div className="courses__wrapper">
-              <h3 className="courses__title">Mnemonika</h3>
-
-              <p className="courses__text">
-                Mnemonika kurslarimiz orqali miyangizni to'gri boshqaring
-              </p>
-
-              <p className="courses__text">100 % offline</p>
-
-              <Link className="courses__more-info" to="#">
-                Batafsil
-              </Link>
-            </div>
-          </li>
-          <li className="courses__item">
-            <img
-              className="courses__image"
-              src={brainImage}
-              alt="Mnemonika"
-              width={288}
-              height={186}
-            />
-
-            <div className="courses__wrapper">
-              <h3 className="courses__title">Mnemonika</h3>
-
-              <p className="courses__text">
-                Mnemonika kurslarimiz orqali miyangizni to'gri boshqaring
-              </p>
-
-              <p className="courses__text">100 % offline</p>
-
-              <Link className="courses__more-info" to="#">
-                Batafsil
-              </Link>
-            </div>
-          </li>
-          <li className="courses__item">
-            <img
-              className="courses__image"
-              src={brainImage}
-              alt="Mnemonika"
-              width={288}
-              height={186}
-            />
-
-            <div className="courses__wrapper">
-              <h3 className="courses__title">Mnemonika</h3>
-
-              <p className="courses__text">
-                Mnemonika kurslarimiz orqali miyangizni to'gri boshqaring
-              </p>
-
-              <p className="courses__text">100 % offline</p>
-
-              <Link className="courses__more-info" to="#">
-                Batafsil
-              </Link>
-            </div>
-          </li>
-          <li className="courses__item">
-            <img
-              className="courses__image"
-              src={brainImage}
-              alt="Mnemonika"
-              width={288}
-              height={186}
-            />
-
-            <div className="courses__wrapper">
-              <h3 className="courses__title">Mnemonika</h3>
-
-              <p className="courses__text">
-                Mnemonika kurslarimiz orqali miyangizni to'gri boshqaring
               </p>
 
               <p className="courses__text">100 % offline</p>

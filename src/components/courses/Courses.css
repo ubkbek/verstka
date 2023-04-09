@@ -14,7 +14,7 @@
 
 .courses__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -32,6 +32,14 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: relative;
   transition: all 0.3s ease;
+}
+
+.courses__item + .courses__item {
+  margin-left: 15px;
+}
+
+.courses__item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .courses__item:hover {
