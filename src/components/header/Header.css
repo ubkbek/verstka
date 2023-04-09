@@ -49,6 +49,17 @@
   border: 2px solid #263238;
   border-radius: 5px;
   margin-left: 70px;
+  transition: all 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  color: #ebebeb;
+  background-color: #263238;
+  transform: rotateZ(-1deg);
+}
+
+.sign-in-btn:active {
+  opacity: 0.5;
 }
 
 .header__btn {
