@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logoImage from "./../../assets/images/logo.png";
 import burgerMenu from "./../../assets/images/burger-menu.png";
 import cross from "./../../assets/images/x.png";
 import "./Header.css";
 const Header = () => {
+  const [mobile, setMobile] = useState(false);
+
+  console.log(mobile);
+
   return (
-    <div className="header">
+    <div className={mobile ? "active header" : "header"}>
       <div className="container header__container">
         <Link className="header__logo-link" to={"/"}>
           <img
@@ -37,7 +41,7 @@ const Header = () => {
           <button className="sign-in-btn">Kirish</button>
         </div>
 
-        <button className="header__btn">
+        <button onClick={() => setMobile(!mobile)} className="header__btn">
           <img
             className="burger__btn"
             width={20}

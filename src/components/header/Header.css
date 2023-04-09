@@ -71,7 +71,9 @@
 
 @media screen and (max-width: 885px) {
   .header {
-    background-color: #333;
+    /* background-color: #333; */
+
+    transition: all 2s ease-in-out;
   }
 
   .header__nav-wrapper {
@@ -87,6 +89,8 @@
     padding-left: 20px;
     padding-top: 20px;
     height: 100vh;
+    display: none;
+    transition: all 2s ease;
   }
 
   .header__nav {
@@ -114,5 +118,21 @@
 
   .header__btn {
     display: block;
+  }
+
+  .active .header__nav-wrapper {
+    display: block;
+  }
+
+  .active .header__btn {
+    background-color: #333;
+  }
+
+  .active .close__btn {
+    display: block;
+  }
+
+  .active .burger__btn {
+    display: none;
   }
 }
