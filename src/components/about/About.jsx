@@ -11,11 +11,10 @@ const About = () => {
           <h3 className="about__heading">Yutuqlarimiz</h3>
 
           <p className="about__text">
-            Biz 2017 yildan buyon ilmga chanqoq talabalarga xizmat ko'rsatib
-            kelamiz. Biz 2017 yildan buyon ilmga chanqoq talabalarga xizmat
-            ko'rsatib kelamiz. Biz 2017 yildan buyon ilmga chanqoq talabalarga
-            xizmat ko'rsatib kelamiz. Biz 2017 yildan buyon ilmga chanqoq
-            talabalarga xizmat ko'rsatib kelamiz.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam,
+            consequuntur eius. Animi, illum numquam facere ut quia magnam unde
+            incidunt nulla aspernatur, in repellendus assumenda fuga nisi, aut
+            repudiandae. Reprehenderit.
           </p>
 
           <div className="about__result">
