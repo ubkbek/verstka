@@ -4,7 +4,7 @@ import imageAbout from "./../../assets/images/about-us.png";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h2 className="mobile__heading">Biz haqimizda</h2>
       <div className="container about__container">
         <div className="about__box">

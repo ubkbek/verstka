@@ -25,6 +25,7 @@ const Header = () => {
             <ul className="header__nav-list">
               <li className="header__nav-item">
                 <NavLink
+                  to="/"
                   className={({ isActive }) =>
                     isActive
                       ? "header__nav-link text-decoration-underline p-4"
@@ -35,7 +36,9 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="header__nav-item">
-                <NavLink className="header__nav-link">About us</NavLink>
+                <NavLink to="#about" className="header__nav-link">
+                  About us
+                </NavLink>
               </li>
               <li className="header__nav-item">
                 <NavLink className="header__nav-link">Courses</NavLink>
