@@ -3,7 +3,7 @@ import { About, Courses, Footer, Header, Hero, Teachers } from "./components";
 
 const App = () => {
   return (
-    <div className="">
+    <div>
       <Header />
       <main>
         <Hero />
